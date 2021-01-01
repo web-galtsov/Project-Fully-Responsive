@@ -24,13 +24,13 @@ export const HeroBg = styled.div`
     overflow: hidden;
 `;
 
-export const VideoBg = styled.div`
+/*export const VideoBg = styled.div`
     width: 100%;
     height: 800px;
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
-`;
+`;*/
 
 export const HeroContent = styled.div`
     z-index: 3;

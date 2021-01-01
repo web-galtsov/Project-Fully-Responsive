@@ -21,18 +21,9 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBg>
-              {/* <VideoBg controls autoPlay loop muted src={Video} type="video/mp4" />*/}
-
-              <VideoBg>
-                   <video controls autoPlay loop muted style={{
-                       width: '100%',
-                       height: '800px',
-                       objectFit: 'cover',
-                       background: '#232a34'}}>
-                       <source src={Video} type='video/mp4' />
-                   </video>
-              </VideoBg>
-
+                <video id="VideoBg"  autoPlay loop muted>
+                    <source src={Video} type='video/mp4' />
+                </video>
             </HeroBg>
             <HeroContent>
                 <HeroH1>Virtual Banking Made Easy</HeroH1>
