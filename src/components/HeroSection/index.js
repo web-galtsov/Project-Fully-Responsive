@@ -4,7 +4,6 @@ import {Button} from "../ButtonElement";
 import {
     HeroContainer,
     HeroBg,
-    VideoBg,
     HeroContent,
     HeroH1,
     HeroP,
@@ -34,6 +33,8 @@ const HeroSection = () => {
                     <Button to = "signup"
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
+                            pimary="true"
+                            dark="true"
                     >
                         Get started {hover ? <ArrowForward/> : <ArrowRight/>}
                     </Button>
