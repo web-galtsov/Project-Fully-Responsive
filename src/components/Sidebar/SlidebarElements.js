@@ -36,7 +36,6 @@ export const SidebarWrapper = styled.div`
       color: #fff;
 `;
 
-
 export const SidebarMenu = styled.ul`
       display: grid;
       grid-template-columns: 1fr;
@@ -47,7 +46,6 @@ export const SidebarMenu = styled.ul`
       grid-template-rows: repeat(6, 60px);
   };
 `;
-
 
 export const SidebarLink = styled(LinkS)`
       display: flex;

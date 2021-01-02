@@ -1,7 +1,5 @@
 import React from "react";
 import { Button } from "../components/ButtonElements";
-import Card from '../images/car.svg';
-import Piggybank from '../images/Piggybank.svg';
 import {
     InfoContainer,
     InfoWrapper,
@@ -16,7 +14,6 @@ import {
     BtnWrap,
     ImgWrap
 } from "./infoElements";
-
 
 const InfoSection = ({lightBg, id, imgStart, topLine,lightText,headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2 }) => {
 

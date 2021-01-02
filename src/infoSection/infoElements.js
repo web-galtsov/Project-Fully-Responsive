@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { mobile,mobiles } from '../utils/screen-sizes';
 
-
 export const InfoContainer = styled.div`
       color: #fff;
       background: ${({lightBg}) => (lightBg ? "#fff" : "#010606")};
