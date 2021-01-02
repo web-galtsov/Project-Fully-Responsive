@@ -29,7 +29,7 @@ export const InfoRow = styled.div`
       grid-template-areas: ${({imgStart}) => (imgStart ? `"col2 col1"` : `"col1 col2"`)};
 
   @media ${mobile} {
-      grid-template-areas: ${({imgStart}) => (imgStart ? `"col1" "col2"` : `"col1 col2" "col2 col2"`)};
+      grid-template-areas: ${({imgStart}) => (imgStart ? `"col1" "col2"` : `"col1 col1" "col2 col2"`)};
   };
 `;
 
