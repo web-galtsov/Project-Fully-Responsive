@@ -33,7 +33,6 @@ export const ServicesWrapper = styled.div`
   };
 `;
 
-
 export const ServicesCard = styled.div`
       background: #fff;
       display: flex;

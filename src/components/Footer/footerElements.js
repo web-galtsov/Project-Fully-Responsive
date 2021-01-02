@@ -39,7 +39,6 @@ export const FooterLinksItems = styled.div`
       width: 160px;
       box-sizing: border-box;
       color: #fff;
-  FooterLinksItems
   @media ${mobiles} {
       margin: 0;
       padding: 10px;
@@ -107,7 +106,7 @@ export const SocialIcons = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 240px;
-  `;
+`;
 
 export const SocialIconLink = styled.a`
    color: #f9f9f9;
