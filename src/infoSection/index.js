@@ -33,7 +33,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine,lightText,headLine, darkTex
                                         duration={500}
                                         spy={true}
                                         exact="true"
-                                        offset={80}
+                                        offset={-80}
                                         primary={primary ? 0 : 1}
                                         dark={dark ? 1 : 0}
                                         dark2={dark2 ? 1 : 0}
@@ -45,7 +45,6 @@ const InfoSection = ({lightBg, id, imgStart, topLine,lightText,headLine, darkTex
                         </Column1>
                             <Column2>
                                 <ImgWrap>
-
                                 <Img src={img} alt={alt}/>
                              {/*  <Card style={{
                                         width: '100%',

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { mobile,mobiles,tablet } from '../../utils/screen-sizes';
 
 export const ServicesContainer = styled.div`
-      height: 800px;
+      height: 950px;
       display: flex;
       flex-direction: column;
       justify-content: center;
