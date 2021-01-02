@@ -5,6 +5,7 @@ import HeroSection from "../components/HeroSection";
 import InfoSection from "../infoSection";
 import Services from "../components/Services";
 import { homeObjOne, homeObjTwo, homeObjThree} from "../infoSection/Data";
+import Footer from "../components/Footer";
 
 
 const Home = () => {
@@ -22,7 +23,7 @@ const Home = () => {
             <InfoSection {...homeObjTwo}/>
             <Services/>
             <InfoSection {...homeObjThree}/>
-
+            <Footer/>
         </>
     );
 };
