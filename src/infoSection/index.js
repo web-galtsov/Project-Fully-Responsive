@@ -49,12 +49,12 @@ const InfoSection = ({lightBg, id, imgStart, topLine,lightText,headLine, darkTex
                             <Column2>
                                 <ImgWrap>
 
-                              {/*  <Img src={img} alt={alt}/>*/}
-                               <Card style={{
+                                <Img src={img} alt={alt}/>
+                             {/*  <Card style={{
                                         width: '100%',
                                         margin: '0 0 10px 0',
                                         paddingRight: '0',
-                                    }} alt={alt}/>
+                                    }} alt={alt}/>*/}
                                 </ImgWrap>
                             </Column2>
                     </InfoRow>

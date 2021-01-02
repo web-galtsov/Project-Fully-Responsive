@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
-//import { BrowserRouter as Router } from "react-router-dom";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../infoSection";
-import { homeObjOne, homeObjTwo, homeObjThree } from "../infoSection/Data";
+import Services from "../components/Services";
+import { homeObjOne, homeObjTwo, homeObjThree} from "../infoSection/Data";
+
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,9 @@ const Home = () => {
             <HeroSection/>
             <InfoSection {...homeObjOne}/>
             <InfoSection {...homeObjTwo}/>
+            <Services/>
             <InfoSection {...homeObjThree}/>
+
         </>
     );
 };
