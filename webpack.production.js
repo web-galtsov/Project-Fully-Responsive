@@ -15,10 +15,12 @@ module.exports =merge(common, {
         publicPath: './'
     },
     optimization: {
+        minimize: true,
+        minimizer: [new TerserPlugin()],
         splitChunks: {
-            chunks: "all"
-        },
-      },
+            chunks: 'all',
+        }
+    },
 /*
 
     plugins: [
