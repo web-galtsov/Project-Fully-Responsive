@@ -51,7 +51,9 @@ export const ServicesCard = styled.div`
     cursor: pointer;
   };
 `;
-
+export const Icon = styled.div`
+  margin-bottom: 10px;
+`;
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;

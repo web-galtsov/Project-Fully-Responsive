@@ -8,7 +8,8 @@ import {
     ServicesWrapper,
     ServicesCard,
     ServicesH2,
-    ServicesP
+    ServicesP,
+    Icon
 } from "./servicesElements";
 
 const Services = () => {
@@ -17,17 +18,23 @@ const Services = () => {
             <ServicesH1>Our Services</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
-                <Icon1 className="icon-serves"/>
+                  <Icon>
+                     <Icon1 height="160px"  width="160px"/>
+                  </Icon>
                     <ServicesH2>Reduce expenses</ServicesH2>
                     <ServicesP>We help reduce your fess and increase your overall revenue.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <Icon2 className="icon-serves"/>
+                    <Icon>
+                        <Icon2 height="160px"  width="160px"/>
+                    </Icon>
                     <ServicesH2>Virtual Offices</ServicesH2>
                     <ServicesP>You can access our platform online anywhere in the world.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <Icon3 className="icon-serves"/>
+                    <Icon>
+                        <Icon3 height="160px"  width="160px"/>
+                    </Icon>
                     <ServicesH2>Premium Benefits</ServicesH2>
                     <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
                 </ServicesCard>
